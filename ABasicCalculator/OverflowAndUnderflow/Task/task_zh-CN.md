@@ -1,0 +1,1 @@
+调整 `factorial` 函数，使算术溢出以环绕方式处理，从而匹配 `twentieth()` 测试用例对 `factorial(20)` 的预期结果。

@@ -1,0 +1,1198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="TermsProjectSettings">
+    <currentTermsLanguage>en</currentTermsLanguage>
+    <terms>
+      <map>
+        <entry key="en">
+          <value>
+            <map>
+              <entry key="904933">
+                <value>
+                  <list>
+                    <Term value="main function" definition="The main function is always the first code that runs in every executable Rust program. It has no parameters by default and returns nothing." />
+                    <Term value="curly brackets" definition="In Rust, curly brackets `{}` are required around all function bodies." />
+                    <Term value="curly bracket" definition="In Rust, curly brackets `{}` are required around all function bodies." />
+                    <Term value="semicolon" definition="In Rust, a semicolon (`;`) marks the end of a statement and prepares for the next statement." />
+                    <Term value="rustfmt" definition="Rustfmt is an automatic formatter tool under development to ensure a standard style across Rust projects." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="3101738">
+                <value>
+                  <list>
+                    <Term value="channel serialization" definition="Channel serialization refers to the process of using a channel to naturally serialize incoming requests, ensuring that they are processed one by one by a server." />
+                    <Term value="RwLock" definition="RwLock is a type of lock that allows multiple readers or a single writer, enabling parallel read access while ensuring exclusive write access." />
+                    <Term value="Mutex" definition="A Mutex is a mutual exclusion primitive that serializes access to a shared resource, ensuring only one thread can interact with it at any given time." />
+                    <Term value="Arc" definition="Arc (Atomic Reference Counting) is a thread-safe smart pointer in Rust used to enable multiple threads to share ownership of the same data." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="31370224">
+                <value>
+                  <list>
+                    <Term value="TryFrom&lt;String&gt;" definition="In Rust, `TryFrom&lt;String&gt;` is a trait used to implement conversions from a `String` type to another type, with the potential for the conversion to fail." />
+                    <Term value="TryFrom&lt;&amp;str&gt;" definition="In Rust, `TryFrom&lt;&amp;str&gt;` is a trait used to implement conversions from a string slice `&amp;str` to another type, with the potential for the conversion to fail." />
+                    <Term value="TicketTitle" definition="`TicketTitle` is a custom type used in Rust to represent and validate the title for a ticket." />
+                    <Term value="TicketDescription" definition="`TicketDescription` is a custom type used in Rust to represent and validate the description for a ticket." />
+                    <Term value="Status" definition="`Status` is a custom type in Rust used to represent and validate the status of a ticket, potentially requiring case-insensitivity during validation." />
+                    <Term value="status" definition="`Status` is a custom type in Rust used to represent and validate the status of a ticket, potentially requiring case-insensitivity during validation." />
+                    <Term value="type system" definition="Rust's type system is used to enforce invariants and improve code organization, ensuring that structures and fields adhere to specific rules and validations." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="48107198">
+                <value>
+                  <list>
+                    <Term value="Booleans" definition="In Rust, a boolean is a primitive type that can either be `true` or `false`. It is used as the condition type for `if` expressions." />
+                    <Term value="boolean" definition="In Rust, a boolean is a primitive type that can either be `true` or `false`. It is used as the condition type for `if` expressions." />
+                    <Term value="Comparison operators" definition="In Rust, comparison operators used for building conditions include `==`, `!=`, `&lt;`, `&gt;`, `&lt;=`, and `&gt;=`." />
+                    <Term value="comparison operators" definition="In Rust, comparison operators used for building conditions include `==`, `!=`, `&lt;`, `&gt;`, `&lt;=`, and `&gt;=`." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="59510015">
+                <value>
+                  <list>
+                    <Term value="Structs" definition="In Rust, a struct defines a new type by combining other types as fields, which can have names and types." />
+                    <Term value="struct" definition="In Rust, a struct defines a new type by combining other types as fields, which can have names and types." />
+                    <Term value="structs" definition="In Rust, a struct defines a new type by combining other types as fields, which can have names and types." />
+                    <Term value="fields" definition="Fields are the individual components of a struct in Rust, each having a name and a type, separated by a colon." />
+                    <Term value="field" definition="Fields are the individual components of a struct in Rust, each having a name and a type, separated by a colon." />
+                    <Term value="Fields" definition="Fields are the individual components of a struct in Rust, each having a name and a type, separated by a colon." />
+                    <Term value="Field" definition="Fields are the individual components of a struct in Rust, each having a name and a type, separated by a colon." />
+                    <Term value="Methods" definition="Methods in Rust are functions defined inside an `impl` block and can use `self` as their first parameter to operate on an instance of a struct." />
+                    <Term value="methods" definition="Methods in Rust are functions defined inside an `impl` block and can use `self` as their first parameter to operate on an instance of a struct." />
+                    <Term value="method" definition="Methods in Rust are functions defined inside an `impl` block and can use `self` as their first parameter to operate on an instance of a struct." />
+                    <Term value="Method" definition="Methods in Rust are functions defined inside an `impl` block and can use `self` as their first parameter to operate on an instance of a struct." />
+                    <Term value="Static methods" definition="A static method in Rust is a method that doesn’t take `self` as its first parameter and is called using the `StructName::method_name` syntax." />
+                    <Term value="static method" definition="A static method in Rust is a method that doesn’t take `self` as its first parameter and is called using the `StructName::method_name` syntax." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="98515100">
+                <value>
+                  <list>
+                    <Term value="ownership" definition="Ownership in Rust enables memory safety and performance without a garbage collector by ensuring each value has a single owner." />
+                    <Term value="Ownership" definition="Ownership in Rust enables memory safety and performance without a garbage collector by ensuring each value has a single owner." />
+                    <Term value="struct" definition="A struct in Rust is a custom data type that allows you to group related data together." />
+                    <Term value="references and borrowing" definition="References and borrowing in Rust allow you to access or modify data without taking ownership of it." />
+                    <Term value="Memory management" definition="Memory management in Rust involves understanding the stack, heap, pointers, data layout, and destructors to handle resources efficiently." />
+                    <Term value="Modules and visibility" definition="Modules and visibility in Rust control how code is organized and how different parts of a program can access each other." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="112577149">
+                <value>
+                  <list>
+                    <Term value="saturating arithmetic" definition="Saturating arithmetic performs operations that return the maximum or minimum value for the integer type when an overflow or underflow occurs, instead of wrapping around." />
+                    <Term value="saturating_add" definition="The saturating_add method in Rust adds two values together but returns the maximum value for the type if the result exceeds the type's upper limit." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="131422506">
+                <value>
+                  <list>
+                    <Term value="std::mem::size_of" definition="The std::mem::size_of function in Rust is used to determine the size in bytes of a given type at compile time." />
+                    <Term value="u16" definition="u16 in Rust represents an unsigned 16-bit integer type which requires 2 bytes of memory." />
+                    <Term value="i32" definition="i32 in Rust represents a signed 32-bit integer type which requires 4 bytes of memory." />
+                    <Term value="bool" definition="bool in Rust is a type that represents a boolean value and typically requires 1 byte of memory." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="150305133">
+                <value>
+                  <list>
+                    <Term value="Scoped threads" definition="Scoped threads are threads that are ensured to finish execution before the enclosing scope ends, preventing lifetime issues like having the thread outlive its parent." />
+                    <Term value="scoped threads" definition="Scoped threads are threads that are ensured to finish execution before the enclosing scope ends, preventing lifetime issues like having the thread outlive its parent." />
+                    <Term value="std::thread::scope" definition="The std::thread::scope function creates a new scope, allowing threads inside the scope to safely borrow from the environment and guarantees that all spawned threads finish before the scope ends." />
+                    <Term value="Scoped" definition="Scope is a type provided in the context of std::thread::scope, exposing a spawn method that ensures threads spawned within will be automatically joined when the scope ends." />
+                    <Term value="scoped" definition="Scope is a type provided in the context of std::thread::scope, exposing a spawn method that ensures threads spawned within will be automatically joined when the scope ends." />
+                    <Term value="scope" definition="Scope is a type provided in the context of std::thread::scope, exposing a spawn method that ensures threads spawned within will be automatically joined when the scope ends." />
+                    <Term value="Scope" definition="Scope is a type provided in the context of std::thread::scope, exposing a spawn method that ensures threads spawned within will be automatically joined when the scope ends." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="154426842">
+                <value>
+                  <list>
+                    <Term value="match" definition="In Rust, a match statement allows you to compare a value against a series of patterns, similar to a type-level if statement." />
+                    <Term value="matches" definition="In Rust, a match statement allows you to compare a value against a series of patterns, similar to a type-level if statement." />
+                    <Term value="matched" definition="In Rust, a match statement allows you to compare a value against a series of patterns, similar to a type-level if statement." />
+                    <Term value="matching" definition="In Rust, a match statement allows you to compare a value against a series of patterns, similar to a type-level if statement." />
+                    <Term value="Exhaustiveness" definition="In Rust, match statements must exhaustively handle all enum variants; otherwise, the compiler emits an error at compile-time." />
+                    <Term value="catch-all pattern" definition="In Rust, the '_' pattern acts as a catch-all in a match statement, matching anything not handled by prior patterns, but removes compiler-driven refactoring benefits." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="174513736">
+                <value>
+                  <list>
+                    <Term value="Stack" definition="The stack is a Last In, First Out (LIFO) data structure used to store function arguments, local variables, and bookkeeping values. It allows for very fast allocation and deallocation since data is always pushed and popped from the top of the stack." />
+                    <Term value="stack" definition="The stack is a Last In, First Out (LIFO) data structure used to store function arguments, local variables, and bookkeeping values. It allows for very fast allocation and deallocation since data is always pushed and popped from the top of the stack." />
+                    <Term value="std::mem::size_of" definition="A function in Rust's standard library used to determine the size of a type in bytes at compile time." />
+                    <Term value="stack overflow" definition="A condition where too many nested function calls exhaust the stack space, causing a runtime error." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="198161552">
+                <value>
+                  <list>
+                    <Term value="trait" definition="In programming, a trait is a reusable collection of methods or properties that can be added to classes or objects." />
+                    <Term value="method" definition="A method is a function that is associated with an object and can perform operations using the object's data or perform other tasks." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="198566451">
+                <value>
+                  <list>
+                    <Term value="Two-way communication" definition="A communication system where messages can flow in both directions, allowing the client to receive responses from the server." />
+                    <Term value="two-way communication" definition="A communication system where messages can flow in both directions, allowing the client to receive responses from the server." />
+                    <Term value="Response channel" definition="In Rust, a channel included in the client's message to the server, allowing the server to send a processed response back to the client." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="296936096">
+                <value>
+                  <list>
+                    <Term value="impl Trait" definition="`impl Trait` is a Rust feature that allows you to return a type without specifying its name, by declaring traits that the type implements." />
+                    <Term value="Impl Trait" definition="`impl Trait` is a Rust feature that allows you to return a type without specifying its name, by declaring traits that the type implements." />
+                    <Term value="Unnameable types" definition="Unnameable types in Rust are types, such as closures, that cannot be written in the code due to lack of an explicit name." />
+                    <Term value="opaque return type" definition="Opaque return type in Rust refers to the return type of a function with `impl Trait`, where the exact type is fixed at compile time and only its traits are exposed." />
+                    <Term value="generic parameter" definition="Generic parameters in Rust are placeholders for types that are filled in by the caller of a function, allowing polymorphism by generating implementations for different types." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="335642245">
+                <value>
+                  <list>
+                    <Term value="HashMap" definition="A HashMap is a data structure in Rust that stores key-value pairs with random order iteration. The keys must implement the Hash trait." />
+                    <Term value="BTreeMap" definition="A BTreeMap is a data structure in Rust that guarantees entries are sorted by their keys and allows for consistent ordering, specific order iteration, and range queries." />
+                    <Term value="Ord" definition="Ord is a trait in Rust used to compare values for ordering. It requires the Eq and PartialOrd traits and provides the cmp method that returns an Ordering enum." />
+                    <Term value="PartialOrd" definition="PartialOrd is a weaker version of Ord in Rust, used for ordering comparisons where values may not always be comparable. It provides the partial_cmp method which returns an Option&lt;Ordering&gt;." />
+                    <Term value="order" definition="Ordering is an enum in Rust that represents the result of a comparison, with possible values Less, Equal, or Greater." />
+                    <Term value="ordering" definition="Ordering is an enum in Rust that represents the result of a comparison, with possible values Less, Equal, or Greater." />
+                    <Term value="Ordering" definition="Ordering is an enum in Rust that represents the result of a comparison, with possible values Less, Equal, or Greater." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="356010987">
+                <value>
+                  <list>
+                    <Term value="SaturatingU16" definition="A user-defined data type that operates on 16-bit unsigned integers and includes functionality for saturating arithmetic, such as addition." />
+                    <Term value="saturating addition" definition="An operation that adds two numbers but caps the result at a maximum value if an overflow occurs." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="369029018">
+                <value>
+                  <list>
+                    <Term value="unbounded channels" definition="An unbounded channel allows you to send as many messages as you want, and the channel will grow to accommodate them. However, in a production scenario, it can lead to memory issues if producers enqueue messages faster than the consumer can process them." />
+                    <Term value="unbounded channel" definition="An unbounded channel allows you to send as many messages as you want, and the channel will grow to accommodate them. However, in a production scenario, it can lead to memory issues if producers enqueue messages faster than the consumer can process them." />
+                    <Term value="bounded channel" definition="A bounded channel has a fixed capacity, allowing only a limited number of messages to be enqueued. It is created using `sync_channel` with a positive capacity value." />
+                    <Term value="Bounded channels" definition="A bounded channel has a fixed capacity, allowing only a limited number of messages to be enqueued. It is created using `sync_channel` with a positive capacity value." />
+                    <Term value="bounded channels" definition="A bounded channel has a fixed capacity, allowing only a limited number of messages to be enqueued. It is created using `sync_channel` with a positive capacity value." />
+                    <Term value="SyncSender" definition="SyncSender is an instance used for sending messages in a bounded channel created using `sync_channel`. It provides methods like `send` and `try_send` for message transmission." />
+                    <Term value="send" definition="The `send` method of SyncSender enqueues a message if there is space in the channel. If the channel is full, it blocks until there is space available." />
+                    <Term value="Sending" definition="The `send` method of SyncSender enqueues a message if there is space in the channel. If the channel is full, it blocks until there is space available." />
+                    <Term value="sent" definition="The `send` method of SyncSender enqueues a message if there is space in the channel. If the channel is full, it blocks until there is space available." />
+                    <Term value="try_send" definition="The `try_send` method of SyncSender enqueues a message if there is space in the channel. If the channel is full, it returns an error (`Err(TrySendError::Full(value)`), where `value` is the message that couldn't be sent." />
+                    <Term value="Backpressure" definition="Backpressure is a mechanism provided by bounded channels to slow down message production when the consumer can't keep up, preventing the system from being overwhelmed with requests." />
+                    <Term value="backpressure" definition="Backpressure is a mechanism provided by bounded channels to slow down message production when the consumer can't keep up, preventing the system from being overwhelmed with requests." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="371575720">
+                <value>
+                  <list>
+                    <Term value="todo!() macros" definition="In Rust, the todo!() macro is a placeholder that panics on execution, used to indicate unfinished code." />
+                    <Term value="HashMap" definition="In Rust, a HashMap is a collection that stores key-value pairs, enabling efficient data retrieval by key." />
+                    <Term value="TicketId" definition="In the context given, TicketId likely refers to a data type or struct meant to uniquely identify tickets, which may require additional trait implementations to ensure compatibility as keys in a HashMap." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="416368392">
+                <value>
+                  <list>
+                    <Term value="Interior mutability" definition="A pattern in Rust that allows you to mutate data even when you only have a shared reference to it." />
+                    <Term value="interior mutability" definition="A pattern in Rust that allows you to mutate data even when you only have a shared reference to it." />
+                    <Term value="UnsafeCell" definition="A Rust type used to enable interior mutability by allowing data to be mutated through shared references while ensuring safety rules are not violated." />
+                    <Term value="Rc" definition="A reference-counted pointer in Rust that wraps around a value and keeps track of how many references to that value exist, deallocating it when the last reference is dropped." />
+                    <Term value="rc" definition="A reference-counted pointer in Rust that wraps around a value and keeps track of how many references to that value exist, deallocating it when the last reference is dropped." />
+                    <Term value="RefCell" definition="A Rust type that allows mutation of its value through runtime borrow checking, ensuring that Rust's borrowing rules are adhered to at runtime." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="420504351">
+                <value>
+                  <list>
+                    <Term value="identifier" definition="An identifier is a unique value used to uniquely identify a ticket in a ticket management system." />
+                    <Term value="TicketDraft" definition="A TicketDraft is a ticket that hasn't been created yet. It does not have an id or a status." />
+                    <Term value="Ticket" definition="A Ticket is a ticket that has been created. It has an id and a status." />
+                    <Term value="ticket" definition="A Ticket is a ticket that has been created. It has an id and a status." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="428965163">
+                <value>
+                  <list>
+                    <Term value="Channels" definition="A mechanism in Rust's standard library (std::sync::mpsc module) that provides communication between threads. It has two parts: sender and receiver; data is pushed via 'send' on the sender and pulled via 'recv' on the receiver." />
+                    <Term value="channels" definition="A mechanism in Rust's standard library (std::sync::mpsc module) that provides communication between threads. It has two parts: sender and receiver; data is pushed via 'send' on the sender and pulled via 'recv' on the receiver." />
+                    <Term value="channel" definition="A mechanism in Rust's standard library (std::sync::mpsc module) that provides communication between threads. It has two parts: sender and receiver; data is pushed via 'send' on the sender and pulled via 'recv' on the receiver." />
+                    <Term value="Channel" definition="A mechanism in Rust's standard library (std::sync::mpsc module) that provides communication between threads. It has two parts: sender and receiver; data is pushed via 'send' on the sender and pulled via 'recv' on the receiver." />
+                    <Term value="sender" definition="A part of Rust's channel that is clonable and used to send data into the channel." />
+                    <Term value="senders" definition="A part of Rust's channel that is clonable and used to send data into the channel." />
+                    <Term value="Sender" definition="A part of Rust's channel that is clonable and used to send data into the channel." />
+                    <Term value="receiver" definition="A part of Rust's channel that is not clonable and used to receive data from the channel." />
+                    <Term value="Receiver" definition="A part of Rust's channel that is not clonable and used to receive data from the channel." />
+                    <Term value="send" definition="A method used on a channel's sender to push data into the channel. Returns an error if the receiver has been dropped." />
+                    <Term value="recv" definition="A method used on a channel's receiver to pull data from the channel. Returns an error if all senders have been dropped and the channel is empty." />
+                    <Term value="Message type" definition="In Rust's channels, the data type (e.g., u64, struct, enum) that can travel between threads via the channel. Both Sender and Receiver are generic over this type parameter." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="429962449">
+                <value>
+                  <list>
+                    <Term value="deref coercion" definition="Deref coercion is a language feature that implicitly converts references to one type into references to another type when the source type implements the Deref trait." />
+                    <Term value="Deref coercion" definition="Deref coercion is a language feature that implicitly converts references to one type into references to another type when the source type implements the Deref trait." />
+                    <Term value="associated type" definition="An associated type is a placeholder for a concrete type that must be specified when a trait is implemented in Rust." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="445669529">
+                <value>
+                  <list>
+                    <Term value="integer overflow" definition="When the result of an arithmetic operation is bigger than the maximum value for a given integer type, causing it to exceed its range." />
+                    <Term value="Integer overflows" definition="When the result of an arithmetic operation is bigger than the maximum value for a given integer type, causing it to exceed its range." />
+                    <Term value="integer overflows" definition="When the result of an arithmetic operation is bigger than the maximum value for a given integer type, causing it to exceed its range." />
+                    <Term value="integer underflows" definition="An event where the result of an operation is smaller than the minimum value for a given integer type, causing it to fall below its range." />
+                    <Term value="automatic promotion" definition="The concept of automatically converting the result of an operation to a bigger integer type that can accommodate the value." />
+                    <Term value="wrapping addition" definition="An operation where when the result exceeds the maximum or minimum value for an integer type, it wraps around to the other end of the range." />
+                    <Term value="`overflow-checks`" definition="A Rust profile setting that controls whether integer overflow causes a panic or wraps around at runtime." />
+                    <Term value="profile" definition="Configuration settings in Cargo to customize the way Rust code is compiled, such as `dev`, `release`, `test`, and `bench` profiles." />
+                    <Term value="Profiles" definition="Configuration settings in Cargo to customize the way Rust code is compiled, such as `dev`, `release`, `test`, and `bench` profiles." />
+                    <Term value="profiles" definition="Configuration settings in Cargo to customize the way Rust code is compiled, such as `dev`, `release`, `test`, and `bench` profiles." />
+                    <Term value="`wrapping_` methods" definition="Special methods in Rust that allow operations like addition or subtraction to be performed with wrapping behavior, e.g., `wrapping_add`." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="457436270">
+                <value>
+                  <list>
+                    <Term value="HashMap" definition="A data structure in Rust that works with key-value pairs and provides constant time (O(1)) complexity for insertions, retrievals, and removals." />
+                    <Term value="Hash" definition="A trait in Rust representing a hashing function that maps a potentially infinite set of values to a bounded range, ensuring keys in a HashMap are hashable." />
+                    <Term value="hashing" definition="A trait in Rust representing a hashing function that maps a potentially infinite set of values to a bounded range, ensuring keys in a HashMap are hashable." />
+                    <Term value="hashes" definition="A trait in Rust representing a hashing function that maps a potentially infinite set of values to a bounded range, ensuring keys in a HashMap are hashable." />
+                    <Term value="hash" definition="A trait in Rust representing a hashing function that maps a potentially infinite set of values to a bounded range, ensuring keys in a HashMap are hashable." />
+                    <Term value="Eq" definition="A marker trait in Rust that guarantees reflexive equality, ensuring a value compares equal to itself, which is essential for HashMap operations." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="477456710">
+                <value>
+                  <list>
+                    <Term value="WrappingU32" definition="WrappingU32 is a type in Rust that provides a way to perform arithmetic operations with u32 integers, ensuring that overflow wraps back within the range of u32." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="481369596">
+                <value>
+                  <list>
+                    <Term value="Option" definition="Option is a Rust type that represents nullable values. It is an enum with two variants: Some(T), indicating a value is present, and None, indicating the absence of value." />
+                    <Term value="tuple-like variants" definition="Tuple-like variants in Rust are enum variants that hold unnamed fields, such as Some(T) in the Option enum." />
+                    <Term value="Tuple-like variants" definition="Tuple-like variants in Rust are enum variants that hold unnamed fields, such as Some(T) in the Option enum." />
+                    <Term value="tuple-like variant" definition="Tuple-like variants in Rust are enum variants that hold unnamed fields, such as Some(T) in the Option enum." />
+                    <Term value="Tuple-like structs" definition="Tuple-like structs are struct types in Rust that hold unnamed fields and their values can be accessed using their positional index." />
+                    <Term value="tuple-like structs" definition="Tuple-like structs are struct types in Rust that hold unnamed fields and their values can be accessed using their positional index." />
+                    <Term value="Tuples" definition="Tuples in Rust are a primitive type that group a fixed number of values, potentially of different types, together. Their elements can be accessed using dot notation with an index." />
+                    <Term value="tuples" definition="Tuples in Rust are a primitive type that group a fixed number of values, potentially of different types, together. Their elements can be accessed using dot notation with an index." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="494400661">
+                <value>
+                  <list>
+                    <Term value="PartialEq" definition="In Rust, `PartialEq` is a trait used to compare instances of a type for equality." />
+                    <Term value="Destructuring" definition="Destructuring is a syntax in Rust used to break apart a struct into its fields." />
+                    <Term value="destructuring" definition="Destructuring is a syntax in Rust used to break apart a struct into its fields." />
+                    <Term value="macros" definition="A macro in Rust is a code generator that produces Rust code based on the input provided and compiles it with the rest of the program." />
+                    <Term value="Macros" definition="A macro in Rust is a code generator that produces Rust code based on the input provided and compiles it with the rest of the program." />
+                    <Term value="macro" definition="A macro in Rust is a code generator that produces Rust code based on the input provided and compiles it with the rest of the program." />
+                    <Term value="Derive macros" definition="A derive macro in Rust is a special macro attribute applied to structs to automatically implement common traits." />
+                    <Term value="derive macros" definition="A derive macro in Rust is a special macro attribute applied to structs to automatically implement common traits." />
+                    <Term value="derive macro" definition="A derive macro in Rust is a special macro attribute applied to structs to automatically implement common traits." />
+                    <Term value="cargo-expand" definition="`cargo-expand` is a tool in Rust that lets developers inspect the code generated by macros." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="517640335">
+                <value>
+                  <list>
+                    <Term value="Result" definition="In Rust, a Result is an enum used for returning and propagating errors. It has two variants: Ok for success and Err for error." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="524335873">
+                <value>
+                  <list>
+                    <Term value="destructors" definition="A destructor refers to the process or logic executed when a value goes out of scope to perform cleanup, often implemented via the Drop trait in Rust." />
+                    <Term value="Destructors" definition="A destructor refers to the process or logic executed when a value goes out of scope to perform cleanup, often implemented via the Drop trait in Rust." />
+                    <Term value="destructor" definition="A destructor refers to the process or logic executed when a value goes out of scope to perform cleanup, often implemented via the Drop trait in Rust." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="524522471">
+                <value>
+                  <list>
+                    <Term value="Result" definition="In Rust, `Result` is an enum used for error handling and represents either success (`Ok`) or failure (`Err`)." />
+                    <Term value="Unwrapping" definition="In Rust, `unwrap` is a method used on a `Result` to extract the success value, panicking if the value is an `Err`." />
+                    <Term value="unwrap" definition="In Rust, `unwrap` is a method used on a `Result` to extract the success value, panicking if the value is an `Err`." />
+                    <Term value="expect" definition="In Rust, `expect` is a method used on a `Result` to extract the success value and allows specifying a custom panic message if the value is an `Err`." />
+                    <Term value="ParseIntError" definition="In Rust, `ParseIntError` is an error type returned when parsing a string into an integer fails." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="560955638">
+                <value>
+                  <list>
+                    <Term value="panic" definition="Panic in Rust is an operation that stops normal execution of code when an irrecoverable error occurs and begins unwinding the stack or aborts the program." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="591728563">
+                <value>
+                  <list>
+                    <Term value="Sync" definition="In Rust, Sync is an auto trait automatically implemented for types that can be safely shared between threads. T is Sync if &amp;T is Send." />
+                    <Term value="MutexGuard" definition="In Rust, MutexGuard is not Send because the lock it holds must be released on the same thread that acquired it. However, it is Sync because giving a &amp;MutexGuard to another thread does not affect where the lock is released." />
+                    <Term value="RefCell&lt;T&gt;" definition="In Rust, RefCell&lt;T&gt; is Send if T is Send but is not Sync. It performs runtime borrow checking using non-thread-safe counters, which can lead to data races when accessing &amp;RefCell from multiple threads." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="595125841">
+                <value>
+                  <list>
+                    <Term value="error enum" definition="In programming, an error enum is used to represent different error cases in the type system, allowing for more structured and type-safe error handling." />
+                    <Term value="U32ParseError" definition="U32ParseError is an error enum representing various error cases that may occur when parsing a `u32` (unsigned 32-bit integer) from a string, including NotANumber, TooLarge, and Negative." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="626889359">
+                <value>
+                  <list>
+                    <Term value="Threads" definition="Provided by the `std::thread` module in Rust, threads allow concurrent execution of code." />
+                    <Term value="thread" definition="Provided by the `std::thread` module in Rust, threads allow concurrent execution of code." />
+                    <Term value="Message passing" definition="A concurrency feature in Rust that involves communication between threads using channels." />
+                    <Term value="Arc" definition="In Rust, `Arc` is a thread-safe reference-counting pointer enabling shared ownership across threads." />
+                    <Term value="Mutex" definition="A synchronization primitive in Rust that allows access to shared data by only one thread at a time." />
+                    <Term value="RwLock" definition="A synchronization primitive in Rust that allows multiple readers or one writer access to shared data." />
+                    <Term value="Send" definition="A trait in Rust indicating that a value can be transferred across threads." />
+                    <Term value="Sync" definition="A trait in Rust indicating that a value can be safely accessed from multiple threads." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="635299042">
+                <value>
+                  <list>
+                    <Term value="tokio::sync::Mutex" definition="An asynchronous mutex provided by Tokio that allows tasks to yield to the runtime if the lock cannot be acquired immediately, preventing potential deadlocks in asynchronous contexts." />
+                    <Term value="std::sync::Mutex" definition="A synchronous mutex from the standard library that may cause deadlocks in asynchronous contexts if held across yield points." />
+                    <Term value="std::sync::MutexGuard" definition="A guard returned by acquiring a lock on a `std::sync::Mutex`, which should not be held across asynchronous yield points to avoid deadlocks." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="786331427">
+                <value>
+                  <list>
+                    <Term value="C-style enum" definition="A simple label-based enum typically found in programming languages like C, Java, and Python, where each variant is like a named constant." />
+                    <Term value="struct-like variant" definition="A Rust enum variant that contains data, similar to defining a struct but inlined within the enum." />
+                    <Term value="pattern matching" definition="A control flow construct used to destructure and match enum variants, enabling access to their associated data." />
+                    <Term value="binding" definition="In a match pattern, binding refers to destructuring an enum variant and assigning its data to a variable." />
+                    <Term value="bind" definition="In a match pattern, binding refers to destructuring an enum variant and assigning its data to a variable." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="799256387">
+                <value>
+                  <list>
+                    <Term value="Trait bounds" definition="Trait bounds in Rust are constraints on generic type parameters that specify the traits a type must implement to be used." />
+                    <Term value="trait bounds" definition="Trait bounds in Rust are constraints on generic type parameters that specify the traits a type must implement to be used." />
+                    <Term value="generic function" definition="A generic function in Rust is a function that works with any type specified as a parameter, constrained by trait bounds." />
+                    <Term value="inline trait bound" definition="Inline trait bounds in Rust are used to specify constraints directly next to the type parameter, improving readability for simple conditions." />
+                    <Term value="`where` clause" definition="In Rust, a `where` clause is used to specify trait bounds for generic parameters, providing flexibility, especially for complex constraints." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="822195232">
+                <value>
+                  <list>
+                    <Term value="saturating multiplication" definition="Saturating multiplication is a type of multiplication that caps the result at the maximum value of the data type (e.g., u32::MAX) instead of wrapping around on overflow." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="828601005">
+                <value>
+                  <list>
+                    <Term value="Asynchronous functions" definition="An asynchronous function allows a program to perform other computations while waiting for external tasks, like network or database operations, to complete." />
+                    <Term value="asynchronous functions" definition="An asynchronous function allows a program to perform other computations while waiting for external tasks, like network or database operations, to complete." />
+                    <Term value="asynchronous function" definition="An asynchronous function allows a program to perform other computations while waiting for external tasks, like network or database operations, to complete." />
+                    <Term value="async fn" definition="In Rust, the `async` keyword is used to define an asynchronous function that returns a future instead of executing immediately." />
+                    <Term value="future" definition="A Future in Rust represents a computation that may complete later. It is implemented by the `Future` trait." />
+                    <Term value="futures" definition="A Future in Rust represents a computation that may complete later. It is implemented by the `Future` trait." />
+                    <Term value="Future" definition="A Future in Rust represents a computation that may complete later. It is implemented by the `Future` trait." />
+                    <Term value=".await" definition="The `.await` keyword in Rust is used to pause execution until an asynchronous function or future has completed." />
+                    <Term value="async runtime" definition="Also known as an async executor, it is responsible for managing asynchronous tasks, ensuring their progress and efficiency by utilizing available resources." />
+                    <Term value="tokio::main" definition="A macro provided by the `tokio` runtime in Rust to set up and launch an async runtime for the starting point of an application." />
+                    <Term value="tokio::test" definition="A macro provided by the `tokio` runtime in Rust to create asynchronous tests by setting up the required async runtime." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="847065480">
+                <value>
+                  <list>
+                    <Term value="if let" definition="The 'if let' construct in Rust allows matching on a single variant of an enum without handling all the other variants." />
+                    <Term value="let/else" definition="The 'let/else' construct in Rust allows destructuring variables while providing an early return in case the conditions are not met, avoiding indentation drift." />
+                    <Term value="match" definition="The 'match' construct in Rust is used for pattern matching, allowing handling of all possible variants of an enum." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="862434281">
+                <value>
+                  <list>
+                    <Term value="TicketPatch" definition="In the context of server-side updates, TicketPatch is a struct used to specify changes to a ticket. It includes an ID to identify the ticket and optional fields for title, description, and status indicating what needs to be changed." />
+                    <Term value="SyncSender" definition="SyncSender is a Rust type that enables sending values between threads, but it cannot operate on mutable references with non-'static lifetimes when used with closures or std::thread::spawn." />
+                    <Term value="borrow checker" definition="In Rust, the borrow checker is a feature of the compiler that enforces rules governing ownership and borrowing of memory to ensure memory safety." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="900138695">
+                <value>
+                  <list>
+                    <Term value="range" definition="In Rust, a Range type is used to iterate over a sequence of numbers with different variations like half-open, inclusive, open-ended, and more." />
+                    <Term value="Ranges" definition="In Rust, a Range type is used to iterate over a sequence of numbers with different variations like half-open, inclusive, open-ended, and more." />
+                    <Term value="ranges" definition="In Rust, a Range type is used to iterate over a sequence of numbers with different variations like half-open, inclusive, open-ended, and more." />
+                    <Term value="1..5" definition="A half-open range in Rust that includes all numbers from 1 to 4 but does not include 5." />
+                    <Term value="1..=5" definition="An inclusive range in Rust that includes all numbers from 1 to 5 including the last value, 5." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="903766133">
+                <value>
+                  <list>
+                    <Term value="Box::leak" definition="The `Box::leak` method in Rust's standard library enables memory to be purposefully leaked by turning a `Box` into a `&amp;'static mut` reference, ensuring that the memory is not reclaimed." />
+                    <Term value="use-after-free bugs" definition="A use-after-free bug occurs when a program attempts to access data using a pointer to a memory region that has already been freed or deallocated." />
+                    <Term value="out-of-memory error" definition="An out-of-memory error occurs when a process runs out of memory due to an inability to allocate more memory resources." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="911240823">
+                <value>
+                  <list>
+                    <Term value="thiserror" definition="Thiserror is a third-party Rust crate that provides a procedural macro to simplify the creation of custom error types." />
+                    <Term value="Cargo.toml" definition="Cargo.toml is the manifest file in a Rust package where package metadata like name and version are defined." />
+                    <Term value="crate" definition="Crates are targets inside a Rust package. They can be either binary crates, which compile into an executable file, or library crates, which provide reusable code for other packages." />
+                    <Term value="crates" definition="Crates are targets inside a Rust package. They can be either binary crates, which compile into an executable file, or library crates, which provide reusable code for other packages." />
+                    <Term value="binaries" definition="A binary is a program in Rust that can be compiled into an executable file and includes a `main` function as the entry point." />
+                    <Term value="binary" definition="A binary is a program in Rust that can be compiled into an executable file and includes a `main` function as the entry point." />
+                    <Term value="Binaries" definition="A binary is a program in Rust that can be compiled into an executable file and includes a `main` function as the entry point." />
+                    <Term value="Libraries" definition="A library in Rust is a non-executable crate that groups together reusable code, such as functions and types, for other packages as dependencies." />
+                    <Term value="library" definition="A library in Rust is a non-executable crate that groups together reusable code, such as functions and types, for other packages as dependencies." />
+                    <Term value="libraries" definition="A library in Rust is a non-executable crate that groups together reusable code, such as functions and types, for other packages as dependencies." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="912911775">
+                <value>
+                  <list>
+                    <Term value="Iterator" definition="The `Iterator` trait in Rust is defined in the standard library and provides a shared interface for types that can produce a sequence of values. It includes the `next` method, which returns the next value in the sequence as `Some(value)` or `None` if the sequence is exhausted." />
+                    <Term value="iterator" definition="The `Iterator` trait in Rust is defined in the standard library and provides a shared interface for types that can produce a sequence of values. It includes the `next` method, which returns the next value in the sequence as `Some(value)` or `None` if the sequence is exhausted." />
+                    <Term value="IntoIterator" definition="The `IntoIterator` trait in Rust allows types to be converted into an iterator. It defines the `into_iter` method which consumes the original value and returns an iterator over its elements." />
+                    <Term value="FusedIterator" definition="`FusedIterator` is a more restrictive trait in Rust that guarantees an iterator is exhausted when it returns `None`." />
+                    <Term value="loop in Rust" definition="`loop` is a looping construct in Rust that runs a block of code indefinitely unless explicitly stopped with a `break` statement." />
+                    <Term value="Bounds checks" definition="In Rust, bounds checks ensure safe access to elements within their valid range during iteration. Iteration allows Rust to eliminate bounds checks in generated code, resulting in faster execution compared to manual indexing." />
+                    <Term value="bounds checks" definition="In Rust, bounds checks ensure safe access to elements within their valid range during iteration. Iteration allows Rust to eliminate bounds checks in generated code, resulting in faster execution compared to manual indexing." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="919813331">
+                <value>
+                  <list>
+                    <Term value="Order" definition="A struct in programming used for encapsulating data and defining fields such as product_name, quantity, unit_price, as well as methods like total, along with setters and getters." />
+                    <Term value="struct" definition="A composite data type that groups variables of different types under a single name, allowing the encapsulation of related data." />
+                    <Term value="setters and getters" definition="Methods used for encapsulating access to fields of a class or struct, allowing controlled interaction with object attributes." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="938318777">
+                <value>
+                  <list>
+                    <Term value="struct" definition="A struct is a composite data type in programming that groups multiple variables under one name." />
+                    <Term value="accessor methods" definition="Accessor methods are functions used to retrieve values from an object's properties." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="973641528">
+                <value>
+                  <list>
+                    <Term value="enum" definition="In Rust, an enum is one of the most powerful features for data modeling, allowing you to define a type by enumerating its possible values." />
+                    <Term value="Option" definition="The Option type in Rust is used to model nullable values, representing either some value or none." />
+                    <Term value="Result" definition="The Result type in Rust is used to model recoverable errors, representing either success (Ok) or error (Err)." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="990707121">
+                <value>
+                  <list>
+                    <Term value="multi-threaded" definition="Multi-threaded refers to the ability of a program to execute multiple threads concurrently, allowing tasks to run in parallel." />
+                    <Term value="Vec::leak" definition="`Vec::leak` is a Rust function that converts a vector into a mutable reference to a slice, leaking the ownership of the storage." />
+                    <Term value="threads" definition="A thread is a sequence of execution in a program, capable of running independently and concurrently with other threads." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1027722158">
+                <value>
+                  <list>
+                    <Term value="TryFrom" definition="In Rust, the 'TryFrom' trait is used for fallible type conversions, where the conversion might fail. It returns a 'Result' type and defines an associated 'Error' type to specify the most appropriate error for a failed conversion." />
+                    <Term value="TryInto" definition="The 'TryInto' trait in Rust is the counterpart of 'TryFrom' and is used for fallible type conversions. It also returns a 'Result' type and specifies an associated 'Error' type." />
+                    <Term value="Self::Error" definition="'Self::Error' in Rust refers to an associated error type defined in the 'TryFrom' and 'TryInto' traits that allows each implementation to specify its specific error type." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1029533692">
+                <value>
+                  <list>
+                    <Term value="&amp;str" definition="&amp;str is a reference to a sequence of UTF-8 bytes stored elsewhere, used to represent a view into a string in Rust." />
+                    <Term value="String" definition="String is a heap-allocated, growable, and mutable UTF-8 encoded string type in Rust." />
+                    <Term value="string" definition="String is a heap-allocated, growable, and mutable UTF-8 encoded string type in Rust." />
+                    <Term value="String slices" definition="A String slice is a reference to a substring within a String, pointing to a specific portion of the heap-allocated text data." />
+                    <Term value="string slice" definition="A String slice is a reference to a substring within a String, pointing to a specific portion of the heap-allocated text data." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1034055626">
+                <value>
+                  <list>
+                    <Term value="Enumerations" definition="In Rust, an enumeration is a type that can have a fixed set of values, called variants, defined using the `enum` keyword." />
+                    <Term value="enumerations" definition="In Rust, an enumeration is a type that can have a fixed set of values, called variants, defined using the `enum` keyword." />
+                    <Term value="enumeration" definition="In Rust, an enumeration is a type that can have a fixed set of values, called variants, defined using the `enum` keyword." />
+                    <Term value="enum" definition="In Rust, the `enum` keyword is used to define a new type with a fixed number of possible values, known as variants." />
+                    <Term value="statuses" definition="A Rust enumeration with variants `ToDo`, `InProgress`, and `Done` representing different statuses for a ticket." />
+                    <Term value="status" definition="A Rust enumeration with variants `ToDo`, `InProgress`, and `Done` representing different statuses for a ticket." />
+                    <Term value="Status" definition="A Rust enumeration with variants `ToDo`, `InProgress`, and `Done` representing different statuses for a ticket." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1123089642">
+                <value>
+                  <list>
+                    <Term value="Iterator" definition="An Iterator in Rust is a trait that provides a way to iterate through a sequence of elements, offering methods to transform, filter, and combine iterators." />
+                    <Term value="iterator" definition="An Iterator in Rust is a trait that provides a way to iterate through a sequence of elements, offering methods to transform, filter, and combine iterators." />
+                    <Term value="map" definition="The map method applies a function to each element of the iterator." />
+                    <Term value="filter" definition="The filter method keeps only the elements of an iterator that satisfy a given predicate." />
+                    <Term value="filter_map" definition="The filter_map method combines filter and map in one operation." />
+                    <Term value="collect" definition="The collect method consumes an iterator and gathers its elements into a collection of your choice." />
+                    <Term value="collects" definition="The collect method consumes an iterator and gathers its elements into a collection of your choice." />
+                    <Term value="Closures" definition="A Closure is an anonymous function in Rust, defined using the `|args| body` syntax, which can capture variables from its environment." />
+                    <Term value="closures" definition="A Closure is an anonymous function in Rust, defined using the `|args| body` syntax, which can capture variables from its environment." />
+                    <Term value="cloned" definition="The cloned combinator converts an iterator of references into an iterator of values, cloning each element." />
+                    <Term value="cloning" definition="The cloned combinator converts an iterator of references into an iterator of values, cloning each element." />
+                    <Term value="enumerate" definition="The enumerate method returns a new iterator that yields `(index, value)` pairs for the elements of the original iterator." />
+                    <Term value="skip" definition="The skip method skips the first `n` elements of an iterator." />
+                    <Term value="skips" definition="The skip method skips the first `n` elements of an iterator." />
+                    <Term value="take" definition="The take method stops the iteration after `n` elements." />
+                    <Term value="chain" definition="The chain method combines two iterators into one." />
+                    <Term value="chained" definition="The chain method combines two iterators into one." />
+                    <Term value="turbofish syntax" definition="The turbofish syntax, represented as `::&lt;Type&gt;()`, is used to specify the type for a method in Rust, often seen with the collect method." />
+                    <Term value="Turbofish syntax" definition="The turbofish syntax, represented as `::&lt;Type&gt;()`, is used to specify the type for a method in Rust, often seen with the collect method." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1132634044">
+                <value>
+                  <list>
+                    <Term value="Traits" definition="A Trait in Rust represents a collection of methods that a type must implement. It is similar to interfaces in other languages." />
+                    <Term value="traits" definition="A Trait in Rust represents a collection of methods that a type must implement. It is similar to interfaces in other languages." />
+                    <Term value="Operator traits" definition="Operator traits in Rust, such as `Add`, `Sub`, and `PartialEq`, define the behavior of operators like `+`, `-`, and `==` for custom types." />
+                    <Term value="into" definition="The `Into` trait in Rust enables infallible conversions from one type to another." />
+                    <Term value="Into" definition="The `Into` trait in Rust enables infallible conversions from one type to another." />
+                    <Term value="From" definition="The `From` trait in Rust provides a reciprocal way of conversion for the `Into` trait." />
+                    <Term value="from" definition="The `From` trait in Rust provides a reciprocal way of conversion for the `Into` trait." />
+                    <Term value="Clone" definition="The `Clone` trait in Rust allows creating a copy of a value with the `clone` method." />
+                    <Term value="Copy" definition="The `Copy` trait in Rust indicates that a type's values can be duplicated simply by copying bits." />
+                    <Term value="copying" definition="The `Copy` trait in Rust indicates that a type's values can be duplicated simply by copying bits." />
+                    <Term value="Deref" definition="The `Deref` trait in Rust enables accessing the value inside a smart pointer, like a reference." />
+                    <Term value="deref" definition="The `Deref` trait in Rust enables accessing the value inside a smart pointer, like a reference." />
+                    <Term value="Sized" definition="The `Sized` trait in Rust marks types whose sizes are known at compile time." />
+                    <Term value="size" definition="The `Sized` trait in Rust marks types whose sizes are known at compile time." />
+                    <Term value="Drop" definition="The `Drop` trait in Rust allows custom cleanup logic when a value goes out of scope." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1134470997">
+                <value>
+                  <list>
+                    <Term value="Modules" definition="In Rust, a module is a way to group related code together under a common namespace." />
+                    <Term value="modules" definition="In Rust, a module is a way to group related code together under a common namespace." />
+                    <Term value="module" definition="In Rust, a module is a way to group related code together under a common namespace." />
+                    <Term value="Module" definition="In Rust, a module is a way to group related code together under a common namespace." />
+                    <Term value="Inline modules" definition="An inline module is a module where the declaration and its contents are defined next to each other." />
+                    <Term value="inline module" definition="An inline module is a module where the declaration and its contents are defined next to each other." />
+                    <Term value="Module tree" definition="Modules in Rust can be nested, forming a tree structure where the root of the tree is the crate itself." />
+                    <Term value="module tree" definition="Modules in Rust can be nested, forming a tree structure where the root of the tree is the crate itself." />
+                    <Term value="crate root" definition="The crate root is the root of the module tree and is usually the top-level module of a library crate, often found in 'src/lib.rs'." />
+                    <Term value="External modules" definition="An external module in Rust is a module that is declared in a different file and specified using the 'mod' keyword." />
+                    <Term value="Item paths" definition="Item paths are used to access entities from different modules in Rust by specifying their location in the module tree." />
+                    <Term value="Star imports" definition="A star import is a 'use' statement that imports all the items from a module into the current scope." />
+                    <Term value="star import" definition="A star import is a 'use' statement that imports all the items from a module into the current scope." />
+                    <Term value="cargo-modules" definition="'cargo-modules' is a tool that helps visualize the module tree of a Rust project." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1136503101">
+                <value>
+                  <list>
+                    <Term value="immutable reference" definition="An immutable reference in programming languages like Rust allows read-only access to the referenced data without taking ownership." />
+                    <Term value="accessor methods" definition="Accessor methods are functions used to retrieve the value of private fields in a class or struct." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1142796832">
+                <value>
+                  <list>
+                    <Term value="&amp;String" definition="In Rust, a `&amp;String` is a reference that acts as a pointer to the memory location where the `String`'s metadata is stored." />
+                    <Term value="&amp;mut String" definition="In Rust, a `&amp;mut String` is a mutable reference that acts as a pointer to the memory location where the `String`'s metadata is stored." />
+                    <Term value="std::mem::size_of" definition="In Rust, `std::mem::size_of` is a function that returns the size, in bytes, of a given type." />
+                    <Term value="fat pointers" definition="In Rust, fat pointers are pointers with additional metadata, making them larger than thin pointers. They are used for types like slices and trait objects." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1171068622">
+                <value>
+                  <list>
+                    <Term value="Cancellation" definition="In Rust's asynchronous programming, when a pending future is dropped, the runtime stops polling it, cancelling its execution." />
+                    <Term value="cancellation" definition="In Rust's asynchronous programming, when a pending future is dropped, the runtime stops polling it, cancelling its execution." />
+                    <Term value="cancellation point" definition="In Rust, a cancellation point is a yield point in an asynchronous operation where the runtime can discard the task after it returns control to the executor." />
+                    <Term value="graceful cancellation" definition="A mechanism in Rust to ensure clean-up tasks are performed before aborting an operation, especially in cases where tasks might impact system integrity." />
+                    <Term value="JoinHandle" definition="In tokio, `JoinHandle` is a handle for a spawned task, which can be used to cancel the task through its `abort` method." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1188009767">
+                <value>
+                  <list>
+                    <Term value="extension trait" definition="An extension trait is a trait whose primary purpose is to attach new methods to foreign types, allowing developers to extend the functionality of those types." />
+                    <Term value="Extension trait" definition="An extension trait is a trait whose primary purpose is to attach new methods to foreign types, allowing developers to extend the functionality of those types." />
+                    <Term value="Orphan rule" definition="The orphan rule in Rust requires that at least one of the following must be true: either the trait or the implementor type must be defined in the current crate, ensuring that the method resolution process remains unambiguous." />
+                    <Term value="orphan rule" definition="The orphan rule in Rust requires that at least one of the following must be true: either the trait or the implementor type must be defined in the current crate, ensuring that the method resolution process remains unambiguous." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1189201317">
+                <value>
+                  <list>
+                    <Term value="Ticket::new" definition="`Ticket::new` is a constructor function typically used to initialize a `Ticket` struct with validation rules." />
+                    <Term value="private functions" definition="Private functions are functions within a module or struct that are not accessible outside their defined scope." />
+                    <Term value="static methods" definition="Static methods are methods defined with the `static` keyword that can be called on the type itself rather than an instance of the type." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1196763983">
+                <value>
+                  <list>
+                    <Term value=".iter()" definition="A method most collections expose to return an iterator over references to the collection's elements without consuming the collection." />
+                    <Term value=".into_iter()" definition="A method that consumes the collection to return an iterator which yields owned values, making the original collection unusable thereafter." />
+                    <Term value="IntoIterator" definition="A trait that allows creating an iterator from a collection, either by consuming it or by referring to it." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1217457677">
+                <value>
+                  <list>
+                    <Term value="Truncation" definition="Truncation occurs in Rust when converting from a larger integer type to a smaller one using the `as` operator, where only the least significant bits of the original value are kept." />
+                    <Term value="truncation" definition="Truncation occurs in Rust when converting from a larger integer type to a smaller one using the `as` operator, where only the least significant bits of the original value are kept." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1244822678">
+                <value>
+                  <list>
+                    <Term value="TicketStore::get" definition="`TicketStore::get` returns an `Option&lt;&amp;Ticket&gt;` for a given `TicketId` in Rust." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1253488681">
+                <value>
+                  <list>
+                    <Term value="Traits" definition="In Rust, a trait defines a set of methods that a type must implement to satisfy the trait's contract, serving as an interface." />
+                    <Term value="trait" definition="In Rust, a trait defines a set of methods that a type must implement to satisfy the trait's contract, serving as an interface." />
+                    <Term value="traits" definition="In Rust, a trait defines a set of methods that a type must implement to satisfy the trait's contract, serving as an interface." />
+                    <Term value="PartialEq" definition="PartialEq is a trait in Rust that allows types to specify how to compare for equality." />
+                    <Term value="MaybeZero" definition="MaybeZero is a custom trait defined in the example, requiring its implementors to provide an `is_zero` method to check if a value is zero." />
+                    <Term value="inherent method" definition="A method defined directly on a type without using a trait is called an inherent method." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1463621651">
+                <value>
+                  <list>
+                    <Term value="Arrays" definition="In Rust, an array is a fixed-size collection of elements of the same type. Its size is known at compile-time, and arrays are allocated on the stack." />
+                    <Term value="array" definition="In Rust, an array is a fixed-size collection of elements of the same type. Its size is known at compile-time, and arrays are allocated on the stack." />
+                    <Term value="Array" definition="In Rust, an array is a fixed-size collection of elements of the same type. Its size is known at compile-time, and arrays are allocated on the stack." />
+                    <Term value="bounds checking" definition="In Rust, bounds checking is a mechanism that ensures accessing an out-of-bounds index in an array will panic at runtime, preventing buffer overflows." />
+                    <Term value="bounds checks" definition="In Rust, bounds checking is a mechanism that ensures accessing an out-of-bounds index in an array will panic at runtime, preventing buffer overflows." />
+                    <Term value="zero-indexed" definition="In Rust, arrays are zero-indexed, meaning the first element is accessed at index 0." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1478829232">
+                <value>
+                  <list>
+                    <Term value="Encapsulation" definition="Encapsulation is the practice of hiding the internal representation of an object, commonly used to enforce invariants on the object's state." />
+                    <Term value="encapsulation" definition="Encapsulation is the practice of hiding the internal representation of an object, commonly used to enforce invariants on the object's state." />
+                    <Term value="Accessor methods" definition="Accessor methods are public methods that allow reading the value of private fields in a struct." />
+                    <Term value="accessor methods" definition="Accessor methods are public methods that allow reading the value of private fields in a struct." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1501870810">
+                <value>
+                  <list>
+                    <Term value="Heap" definition="The heap is a memory region used to store data whose size is not known at compile time. It is managed by an allocator to reserve and free memory." />
+                    <Term value="heap" definition="The heap is a memory region used to store data whose size is not known at compile time. It is managed by an allocator to reserve and free memory." />
+                    <Term value="Heap allocations" definition="Heap allocation occurs when the allocator reserves a block of memory on the heap and provides a pointer to its start." />
+                    <Term value="heap allocation" definition="Heap allocation occurs when the allocator reserves a block of memory on the heap and provides a pointer to its start." />
+                    <Term value="heap allocations" definition="Heap allocation occurs when the allocator reserves a block of memory on the heap and provides a pointer to its start." />
+                    <Term value="pointer" definition="A pointer is a variable that holds the memory address of another variable or reserved block of memory." />
+                    <Term value="pointers" definition="A pointer is a variable that holds the memory address of another variable or reserved block of memory." />
+                    <Term value="String::with_capacity" definition="In Rust, `String::with_capacity` reserves a specific amount of memory on the heap for a `String` to avoid multiple allocations as the string grows." />
+                    <Term value="usize" definition="`usize` is an unsigned integer type in Rust, as large as needed to address memory on the machine, equivalent to `u32` on 32-bit systems and `u64` on 64-bit systems." />
+                    <Term value="std::mem::size_of" definition="`std::mem::size_of` is a Rust function that returns the size in bytes a type occupies on the stack, excluding any heap memory it might manage." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1549790461">
+                <value>
+                  <list>
+                    <Term value="Index" definition="Index allows read-only access and does not let you mutate the value you retrieved." />
+                    <Term value="index" definition="Index allows read-only access and does not let you mutate the value you retrieved." />
+                    <Term value="IndexMut" definition="IndexMut is a trait in Rust that enables mutability of indexed elements, provided the type already implements Index." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1583326205">
+                <value>
+                  <list>
+                    <Term value="Marker traits" definition="A marker trait is a trait in Rust that doesn't require any methods to be implemented. It is used to mark a type as having specific properties which the compiler can use for certain behaviors or optimizations." />
+                    <Term value="marker trait" definition="A marker trait is a trait in Rust that doesn't require any methods to be implemented. It is used to mark a type as having specific properties which the compiler can use for certain behaviors or optimizations." />
+                    <Term value="Auto traits" definition="An auto trait in Rust is a type of trait that gets implemented automatically by the compiler based on the type's definition, without needing explicit implementation by the programmer." />
+                    <Term value="auto trait" definition="An auto trait in Rust is a type of trait that gets implemented automatically by the compiler based on the type's definition, without needing explicit implementation by the programmer." />
+                    <Term value="fat pointer" definition="A fat pointer in Rust is a reference to a dynamically sized type (DST), such as `&amp;str`, that includes additional metadata about the data it points to, such as the length of the slice." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1588741183">
+                <value>
+                  <list>
+                    <Term value="Operator overloading" definition="The ability to define custom behavior for operators like `+`, `-`, `*`, `/`, `==`, `!=`, etc." />
+                    <Term value="operator overloading" definition="The ability to define custom behavior for operators like `+`, `-`, `*`, `/`, `==`, `!=`, etc." />
+                    <Term value="Arithmetic operators" definition="Operators such as `+`, `-`, `*`, `/`, and `%` available in the `std::ops` module in Rust." />
+                    <Term value="Default implementations" definition="A method implementation provided directly in the trait definition which can be used or overridden during trait implementation." />
+                    <Term value="default implementation" definition="A method implementation provided directly in the trait definition which can be used or overridden during trait implementation." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1660707231">
+                <value>
+                  <list>
+                    <Term value="Future trait" definition="In Rust, the `Future` trait is implemented by types representing an asynchronous computation, which can be in either a pending or ready state. It uses the `poll` method to make progress." />
+                    <Term value="async fn" definition="In Rust, marking a function with `async` transforms it into a future, which is a state machine representing the asynchronous computation. This allows the function to be executed asynchronously with yield points at `.await` calls." />
+                    <Term value="Yield points" definition="Yield points in Rust occur at `.await` calls, where an asynchronous function pauses its execution, allowing the runtime to manage other tasks concurrently." />
+                    <Term value="yield points" definition="Yield points in Rust occur at `.await` calls, where an asynchronous function pauses its execution, allowing the runtime to manage other tasks concurrently." />
+                    <Term value="tokio::spawn" definition="The `tokio::spawn` function is used to start an asynchronous task in the Tokio runtime, requiring that the task and its captured variables implement the `Send` trait for thread safety." />
+                    <Term value="Rc" definition="`Rc` is a reference-counted smart pointer in Rust for single-threaded environments. It cannot be used across threads as it does not implement the `Send` trait." />
+                    <Term value="rc" definition="`Rc` is a reference-counted smart pointer in Rust for single-threaded environments. It cannot be used across threads as it does not implement the `Send` trait." />
+                    <Term value="JoinHandle" definition="`JoinHandle` is returned by `tokio::spawn`, allowing the caller to await the result of the spawned task." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1701623504">
+                <value>
+                  <list>
+                    <Term value="Vec" definition="In Rust, a Vec is a growable array type provided by the standard library." />
+                    <Term value="Status::ToDo" definition="Status::ToDo represents a specific state or status of an item, often used to indicate that the item is yet to be completed." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1716505910">
+                <value>
+                  <list>
+                    <Term value="Vec" definition="In Rust, a Vec is a growable vector type that resizes itself when it exceeds its current capacity, by allocating a larger chunk of memory, copying existing elements, and deallocating the old memory." />
+                    <Term value="Vec::with_capacity" definition="In Rust, Vec::with_capacity is a method used to pre-allocate memory for a Vec based on an estimated number of elements, reducing the need for resizing but potentially wasting memory if overestimated." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1716944477">
+                <value>
+                  <list>
+                    <Term value="Visibility" definition="Visibility determines which regions of your code (or other people's code) can access a given entity, such as a struct, a function, or a field." />
+                    <Term value="visibility" definition="Visibility determines which regions of your code (or other people's code) can access a given entity, such as a struct, a function, or a field." />
+                    <Term value="Private by default" definition="In Rust, everything is private by default. A private entity can only be accessed within the same module where it's defined or by one of its submodules." />
+                    <Term value="Visibility modifiers" definition="In Rust, visibility modifiers like `pub`, `pub(crate)`, `pub(super)`, and `pub(in path::to::module)` modify the default visibility of an entity to control its accessibility from other parts of the code." />
+                    <Term value="visibility modifier" definition="In Rust, visibility modifiers like `pub`, `pub(crate)`, `pub(super)`, and `pub(in path::to::module)` modify the default visibility of an entity to control its accessibility from other parts of the code." />
+                    <Term value="visibility modifiers" definition="In Rust, visibility modifiers like `pub`, `pub(crate)`, `pub(super)`, and `pub(in path::to::module)` modify the default visibility of an entity to control its accessibility from other parts of the code." />
+                    <Term value="pub" definition="`pub` makes an entity public and accessible outside the module where it's defined, potentially from other crates." />
+                    <Term value="pub(crate)" definition="`pub(crate)` makes an entity public within the same crate but not accessible from outside the crate." />
+                    <Term value="pub(super)" definition="`pub(super)` makes an entity public within the parent module." />
+                    <Term value="pub(in path::to::module)" definition="`pub(in path::to::module)` makes an entity public within a specific module." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1731835642">
+                <value>
+                  <list>
+                    <Term value="Supertrait" definition="A supertrait in Rust is a trait that must be implemented for another trait to be implemented. For instance, `Sized` is a supertrait of `From`, meaning that any type implementing `From` must also implement `Sized`." />
+                    <Term value="supertrait" definition="A supertrait in Rust is a trait that must be implemented for another trait to be implemented. For instance, `Sized` is a supertrait of `From`, meaning that any type implementing `From` must also implement `Sized`." />
+                    <Term value="implicit trait bounds" definition="Implicit trait bounds in Rust are assumptions made by the compiler where a generic type parameter is implicitly assumed to implement the `Sized` trait unless explicitly opted out." />
+                    <Term value="Implicit trait bounds" definition="Implicit trait bounds in Rust are assumptions made by the compiler where a generic type parameter is implicitly assumed to implement the `Sized` trait unless explicitly opted out." />
+                    <Term value="negative trait bound" definition="A negative trait bound in Rust, denoted as `?Sized`, allows a type to either implement or not implement the `Sized` trait, enabling the use of dynamically sized types (DST)." />
+                    <Term value="blanket implementation" definition="A blanket implementation in Rust is a way to implement a trait for all types meeting certain criteria. For example, the `Into` trait is implemented for all types where the `From` trait is implemented." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1734043495">
+                <value>
+                  <list>
+                    <Term value="Ownership" definition="In Rust, ownership is a system where each value has a single owner, and ownership can be transferred between variables to ensure memory safety without requiring a garbage collector." />
+                    <Term value="ownership" definition="In Rust, ownership is a system where each value has a single owner, and ownership can be transferred between variables to ensure memory safety without requiring a garbage collector." />
+                    <Term value="move semantics" definition="Move semantics in Rust refer to transferring ownership of a value from one variable to another, after which the original variable cannot be used." />
+                    <Term value="borrow" definition="Borrowing in Rust allows you to access a value without taking ownership of it by creating references (either immutable `&amp;` or mutable `&amp;mut`)." />
+                    <Term value="borrowing" definition="Borrowing in Rust allows you to access a value without taking ownership of it by creating references (either immutable `&amp;` or mutable `&amp;mut`)." />
+                    <Term value="borrowed" definition="Borrowing in Rust allows you to access a value without taking ownership of it by creating references (either immutable `&amp;` or mutable `&amp;mut`)." />
+                    <Term value="dangling pointers" definition="A dangling pointer is created when a pointer refers to a memory location that has been deallocated. Rust prevents dangling pointers via its ownership system." />
+                    <Term value="dangling pointer" definition="A dangling pointer is created when a pointer refers to a memory location that has been deallocated. Rust prevents dangling pointers via its ownership system." />
+                    <Term value="double frees" definition="Double free occurs when a program attempts to deallocate memory that has already been freed. Rust ensures that double frees cannot happen through strict ownership rules." />
+                    <Term value="double free" definition="Double free occurs when a program attempts to deallocate memory that has already been freed. Rust ensures that double frees cannot happen through strict ownership rules." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1749832573">
+                <value>
+                  <list>
+                    <Term value="impl Trait" definition="In Rust, `impl Trait` is a syntax used to specify a type that implements a specific trait without naming the type explicitly. It can be used in both return and argument positions." />
+                    <Term value="Iterator" definition="An `Iterator` in Rust is a trait that allows sequential access to the elements of a collection or stream. It provides methods like `next()` to iterate over items." />
+                    <Term value="iterator" definition="An `Iterator` in Rust is a trait that allows sequential access to the elements of a collection or stream. It provides methods like `next()` to iterate over items." />
+                    <Term value="turbofish syntax" definition="In Rust, the turbofish syntax (`::&lt;&gt;`) allows the explicit specification of generic types for functions and methods." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1764284282">
+                <value>
+                  <list>
+                    <Term value="tokio" definition="The most popular runtime in Rust for running asynchronous code." />
+                    <Term value="cooperative nature of Rust asynchronous model" definition="Refers to the design of Rust's asynchronous programming model which requires explicit yielding of control for efficient asynchronous operations." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1764698838">
+                <value>
+                  <list>
+                    <Term value="Variables" definition="In Rust, a variable is declared using the `let` keyword and can optionally have an explicit type annotation." />
+                    <Term value="variables" definition="In Rust, a variable is declared using the `let` keyword and can optionally have an explicit type annotation." />
+                    <Term value="variable" definition="In Rust, a variable is declared using the `let` keyword and can optionally have an explicit type annotation." />
+                    <Term value="type annotation" definition="In Rust, type annotation is the process of explicitly specifying a variable's type by adding a colon `:` followed by the type after the variable name." />
+                    <Term value="Type inference" definition="In Rust, type inference is when the compiler deduces the type of a variable based on the context in which it is used." />
+                    <Term value="Function arguments" definition="In Rust, function arguments are variables that must have their types explicitly declared for better compile-time checks and improved compilation speed." />
+                    <Term value="functions arguments" definition="In Rust, function arguments are variables that must have their types explicitly declared for better compile-time checks and improved compilation speed." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1781388613">
+                <value>
+                  <list>
+                    <Term value="TicketTitle" definition="A type in Rust used to encapsulate constraints for ticket titles, ensuring by construction that the title is valid and not empty." />
+                    <Term value="type system" definition="In Rust, the type system is used to represent constraints directly within the code, making it safer and more expressive." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1782939793">
+                <value>
+                  <list>
+                    <Term value="IntoIterator" definition="The IntoIterator trait in Rust enables a type to be converted into an iterator, allowing iteration over its contents." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1820452326">
+                <value>
+                  <list>
+                    <Term value="Cargo.toml" definition="Cargo.toml is a configuration file in Rust used to specify package dependencies, metadata, and settings for a Rust project." />
+                    <Term value="Dependency resolution" definition="Dependency resolution in Rust is the process that Cargo performs to determine the exact versions of dependencies your project will use." />
+                    <Term value="dependency resolution" definition="Dependency resolution in Rust is the process that Cargo performs to determine the exact versions of dependencies your project will use." />
+                    <Term value="Cargo.lock" definition="Cargo.lock is a lockfile generated by Cargo after a successful dependency resolution, ensuring consistent dependency versions across builds." />
+                    <Term value="Path dependencies" definition="Path dependencies in Rust allow you to specify dependencies using local file paths in the Cargo.toml file." />
+                    <Term value="Dev dependencies" definition="Dev dependencies in Rust are dependencies that are only required during development, for example, for running tests, and are specified in the dev-dependencies section of Cargo.toml." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1826013503">
+                <value>
+                  <list>
+                    <Term value="tokio" definition="A runtime for writing reliable, asynchronous, and memory-safe applications in Rust." />
+                    <Term value="AsyncIterator" definition="Conceptually, an iterator that yields new items asynchronously. It is used in Rust's asynchronous programming model." />
+                    <Term value="tokio_stream" definition="An interface provided by the Tokio library for working with asynchronous streams in Rust." />
+                    <Term value="buffered streams" definition="Buffered streams in Rust can hold data temporarily in memory to optimize I/O operations, but improper handling can cause subtle bugs." />
+                    <Term value="scoped threads" definition="Scoped threads in Rust allow for threads that are safely joined before the function where they're declared exits. However, there is no equivalent for asynchronous tasks in Rust." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1836095557">
+                <value>
+                  <list>
+                    <Term value="Detached threads" definition="A thread launched via thread::spawn can outlive its parent thread and may continue running as long as the overall process is running." />
+                    <Term value="std::thread::spawn" definition="The spawn function in Rust's thread module has a signature requiring the closure to have the 'static lifetime to avoid use-after-free bugs." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1847694352">
+                <value>
+                  <list>
+                    <Term value="Threads" definition="An execution context managed by the operating system, each thread has its own stack and instruction pointer and multiple threads can share the same memory space within a single process." />
+                    <Term value="threads" definition="An execution context managed by the operating system, each thread has its own stack and instruction pointer and multiple threads can share the same memory space within a single process." />
+                    <Term value="thread" definition="An execution context managed by the operating system, each thread has its own stack and instruction pointer and multiple threads can share the same memory space within a single process." />
+                    <Term value="scheduler" definition="An operating system component that decides which thread to run at any given time, partitioning CPU time among threads to maximize throughput and responsiveness." />
+                    <Term value="main thread" definition="The first thread created by the operating system when a Rust program starts, responsible for running the 'main' function." />
+                    <Term value="std::thread::spawn" definition="A function in Rust's standard library that creates new threads to execute code concurrently." />
+                    <Term value="JoinHandle" definition="A handle returned by 'std::thread::spawn' in Rust, which can be used to wait for a spawned thread to finish by calling the 'join' method." />
+                    <Term value="join" definition="A method on the JoinHandle in Rust that waits for a spawned thread to finish, introducing synchronization between the calling thread and the spawned thread." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1857293386">
+                <value>
+                  <list>
+                    <Term value="Vec" definition="`Vec` is a growable array type provided by the Rust standard library, allowing dynamic addition of elements and heap allocation for storage." />
+                    <Term value="vec" definition="`Vec` is a growable array type provided by the Rust standard library, allowing dynamic addition of elements and heap allocation for storage." />
+                    <Term value="Vec::new" definition="The `Vec::new` function is used to create an empty vector in Rust." />
+                    <Term value="vec!" definition="The `vec!` macro in Rust allows the creation of an initialized vector with known values at creation time." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1857358500">
+                <value>
+                  <list>
+                    <Term value="Destructors" definition="In Rust, a destructor is a method that's called automatically when the owner of a value goes out of scope to clean up the resources used by that value, such as freeing memory." />
+                    <Term value="destructors" definition="In Rust, a destructor is a method that's called automatically when the owner of a value goes out of scope to clean up the resources used by that value, such as freeing memory." />
+                    <Term value="destructor" definition="In Rust, a destructor is a method that's called automatically when the owner of a value goes out of scope to clean up the resources used by that value, such as freeing memory." />
+                    <Term value="scopes" definition="The scope of a variable in Rust is the region of the code where the variable is valid, starting from its declaration and ending when it goes out of scope." />
+                    <Term value="scope" definition="The scope of a variable in Rust is the region of the code where the variable is valid, starting from its declaration and ending when it goes out of scope." />
+                    <Term value="drop" definition="The drop function in Rust is used to manually invoke a value's destructor, consuming the value so it is no longer valid afterwards." />
+                    <Term value="dropped" definition="The drop function in Rust is used to manually invoke a value's destructor, consuming the value so it is no longer valid afterwards." />
+                    <Term value="Drop" definition="The drop function in Rust is used to manually invoke a value's destructor, consuming the value so it is no longer valid afterwards." />
+                    <Term value="Dropping" definition="The drop function in Rust is used to manually invoke a value's destructor, consuming the value so it is no longer valid afterwards." />
+                    <Term value="ownership" definition="In Rust, ownership refers to the system where each value has a single owner responsible for automatically cleaning it up, preventing issues like double free or use-after-free bugs." />
+                    <Term value="use-after-free bugs" definition="A use-after-free bug occurs when a program attempts to use memory that has already been freed, a type of bug that Rust prevents by design." />
+                    <Term value="dangling pointer" definition="A dangling pointer refers to a reference or pointer that points to a memory location that is no longer valid, which Rust's ownership system avoids." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1875466164">
+                <value>
+                  <list>
+                    <Term value="ownership" definition="In Rust, ownership ensures that every value has a single owner at any given time, and when ownership is moved, the previous owner cannot use the value anymore." />
+                    <Term value="Clone" definition="In Rust, Clone is a trait that provides the method clone(), used to create a new owned instance of the same type by copying data." />
+                    <Term value="clone" definition="In Rust, Clone is a trait that provides the method clone(), used to create a new owned instance of the same type by copying data." />
+                    <Term value="cloning" definition="In Rust, Clone is a trait that provides the method clone(), used to create a new owned instance of the same type by copying data." />
+                    <Term value="clones" definition="In Rust, Clone is a trait that provides the method clone(), used to create a new owned instance of the same type by copying data." />
+                    <Term value="cloned" definition="In Rust, Clone is a trait that provides the method clone(), used to create a new owned instance of the same type by copying data." />
+                    <Term value="deep copy" definition="In programming, a deep copy involves duplicating all fields and values of an object, as seen in Rust's `clone` method." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1917690432">
+                <value>
+                  <list>
+                    <Term value="Result" definition="In Rust, the `Result` type is an enum used for error handling with two variants: `Ok(T)` representing success and holding the successful result, and `Err(E)` representing failure and holding the error." />
+                    <Term value="Ok" definition="A variant of Rust's `Result` type that represents a successful operation, holding the output value of the operation." />
+                    <Term value="Err" definition="A variant of Rust's `Result` type that represents a failed operation, holding the error that occurred." />
+                    <Term value="panic" definition="In Rust, `panic!` is a macro that causes the current thread to terminate, typically used for unrecoverable errors." />
+                    <Term value="panics" definition="In Rust, `panic!` is a macro that causes the current thread to terminate, typically used for unrecoverable errors." />
+                    <Term value="ParseIntError" definition="In Rust, `ParseIntError` is a type used to describe errors that can occur when parsing strings into integers." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1943760619">
+                <value>
+                  <list>
+                    <Term value="Panics" definition="A panic is Rust's way to signal that something went so wrong that the program can't continue executing; it's an unrecoverable error." />
+                    <Term value="panicked" definition="A panic is Rust's way to signal that something went so wrong that the program can't continue executing; it's an unrecoverable error." />
+                    <Term value="panic" definition="A panic is Rust's way to signal that something went so wrong that the program can't continue executing; it's an unrecoverable error." />
+                    <Term value="panics" definition="A panic is Rust's way to signal that something went so wrong that the program can't continue executing; it's an unrecoverable error." />
+                    <Term value="panic! macro" definition="In Rust, the panic! macro is a mechanism to intentionally trigger a panic, signaling an unrecoverable error in the program." />
+                    <Term value="Division by zero" definition="In Rust, division by zero results in a panic, as it classifies as an unrecoverable error." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1964139632">
+                <value>
+                  <list>
+                    <Term value="Rust tasks" definition="Rust tasks cannot be preempted, meaning `tokio` cannot pause a task and run another one unless the task yields explicitly by returning `Poll::Pending` from `Future::poll` or using `.await` in an `async fn`." />
+                    <Term value="block the runtime" definition="Blocking the runtime occurs when a task never yields, preventing the runtime from running other tasks." />
+                    <Term value="blocking the runtime" definition="Blocking the runtime occurs when a task never yields, preventing the runtime from running other tasks." />
+                    <Term value="Blocking the runtime" definition="Blocking the runtime occurs when a task never yields, preventing the runtime from running other tasks." />
+                    <Term value="Deadlocks" definition="Deadlocks happen when a non-yielding task is waiting for another task to complete, and that task is waiting for the first one to yield, causing no progress to be made." />
+                    <Term value="deadlock" definition="Deadlocks happen when a non-yielding task is waiting for another task to complete, and that task is waiting for the first one to yield, causing no progress to be made." />
+                    <Term value="Starvation" definition="Starvation occurs when tasks are unable to run or experience delays due to another task not yielding, leading to performance degradation." />
+                    <Term value="Synchronous I/O" definition="Synchronous I/O operations are generally avoided in async code as they are unpredictable in duration and often exceed the recommended limit of 100 microseconds between yield points." />
+                    <Term value="tokio::task::spawn_blocking" definition="A function in `tokio` that spawns a synchronous operation on a dedicated blocking pool, returning a future that resolves to the result upon completion." />
+                    <Term value="blocking pool" definition="A dedicated thread pool in `tokio` designed for running blocking operations, reducing overhead compared to creating new threads for each task." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1975294456">
+                <value>
+                  <list>
+                    <Term value="optimistic concurrency control" definition="A strategy used in distributed systems that assumes conflicts are rare and allows operations to proceed without locking, only rejecting changes when conflicts arise." />
+                    <Term value="Mutex&lt;T&gt;" definition="A synchronization primitive in Rust that ensures mutual exclusion, allowing only one thread to access the data it protects at any given time." />
+                    <Term value="fine-grained locking" definition="A locking strategy where each object (e.g., ticket) is protected by its own lock, allowing parallel access to unrelated objects." />
+                    <Term value="coarse-grained locking" definition="A locking strategy where a single lock is used to protect multiple objects, limiting system performance by serializing access." />
+                    <Term value="Arc" definition="Short for atomic reference counting, it is a thread-safe reference-counted smart pointer in Rust used to share ownership of data across threads." />
+                    <Term value="Arc&lt;Mutex&lt;T&gt;&gt;" definition="A combination of Arc and Mutex in Rust, allowing thread-safe shared ownership and modification of data." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1983067201">
+                <value>
+                  <list>
+                    <Term value="concurrency" definition="A property of the current-thread runtime where asynchronous tasks are interleaved, but only one task runs at a time." />
+                    <Term value="parallelism" definition="A property of the multithreaded runtime allowing multiple tasks to run simultaneously on different threads." />
+                    <Term value="work-stealing" definition="`tokio`'s mechanism where idle threads attempt to execute tasks from a global or another thread's local queue to balance workloads and improve performance." />
+                    <Term value="Work-stealing" definition="`tokio`'s mechanism where idle threads attempt to execute tasks from a global or another thread's local queue to balance workloads and improve performance." />
+                    <Term value="tokio::spawn" definition="A function to spawn an asynchronous task that can run on any Tokio runtime, requiring input to fulfill `Send` and `'static` constraints." />
+                    <Term value="Send" definition="A trait required by `tokio::spawn` to enable tasks to be safely transferred across threads, necessary due to `tokio`'s work-stealing strategy." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="2019333427">
+                <value>
+                  <list>
+                    <Term value="Primitive types" definition="The most basic building blocks of a language, built into the language itself and not defined in terms of other types." />
+                    <Term value="primitive types" definition="The most basic building blocks of a language, built into the language itself and not defined in terms of other types." />
+                    <Term value="u32" definition="An unsigned 32-bit integer that can represent numbers from 0 to 2^32 - 1." />
+                    <Term value="signed integer" definition="An integer type that can represent both positive and negative numbers." />
+                    <Term value="signed integers" definition="An integer type that can represent both positive and negative numbers." />
+                    <Term value="unsigned integer" definition="An integer type that can only represent non-negative numbers (0 or greater)." />
+                    <Term value="Bit width" definition="The number of bits used to represent a number in memory, determining its range of values." />
+                    <Term value="bit widths" definition="The number of bits used to represent a number in memory, determining its range of values." />
+                    <Term value="bit width" definition="The number of bits used to represent a number in memory, determining its range of values." />
+                    <Term value="Literals" definition="A notation for representing a fixed value in source code, such as `42` for the number forty-two." />
+                    <Term value="literal" definition="A notation for representing a fixed value in source code, such as `42` for the number forty-two." />
+                    <Term value="literals" definition="A notation for representing a fixed value in source code, such as `42` for the number forty-two." />
+                    <Term value="Type annotations for literals" definition="Specifying the type of a literal explicitly by adding a suffix, such as `2u64` for a `u64` type." />
+                    <Term value="Arithmetic operators" definition="Operators in Rust for performing addition (`+`), subtraction (`-`), multiplication (`*`), division (`/`), and remainder (`%`)." />
+                    <Term value="arithmetic operators" definition="Operators in Rust for performing addition (`+`), subtraction (`-`), multiplication (`*`), division (`/`), and remainder (`%`)." />
+                    <Term value="integer division" definition="The division operator `/` truncates the result towards zero, e.g. `5 / 2` results in `2`." />
+                    <Term value="No automatic type coercion" definition="Rust does not automatically convert a value from one type to another, even if the conversion is lossless. Explicit conversion is required." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="2021508539">
+                <value>
+                  <list>
+                    <Term value="lifetime parameter" definition="Lifetimes are labels used by the Rust compiler to keep track of how long a reference (either mutable or immutable) is valid, ensuring references are not used after the value they refer to has been dropped." />
+                    <Term value="Lifetime parameters" definition="Lifetimes are labels used by the Rust compiler to keep track of how long a reference (either mutable or immutable) is valid, ensuring references are not used after the value they refer to has been dropped." />
+                    <Term value="iter" definition="In Rust, Iter is a struct used to represent an iterator over references to the elements of a collection, such as a Vec. It ensures that the iterator does not outlive the original collection." />
+                    <Term value="Iter" definition="In Rust, Iter is a struct used to represent an iterator over references to the elements of a collection, such as a Vec. It ensures that the iterator does not outlive the original collection." />
+                    <Term value="Lifetime elision" definition="Lifetime elision is a set of rules in Rust that allow the omission of explicit lifetime annotations in many cases by tying lifetimes implicitly, like the lifetime of an Iter to the reference it was created from." />
+                    <Term value="lifetime elision" definition="Lifetime elision is a set of rules in Rust that allow the omission of explicit lifetime annotations in many cases by tying lifetimes implicitly, like the lifetime of an Iter to the reference it was created from." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="2029344704">
+                <value>
+                  <list>
+                    <Term value="assert_eq!" definition="In Rust, the `assert_eq!` macro asserts that two expressions are equal to each other. If they aren't, the program will panic and display a message with the values of the expressions." />
+                    <Term value="tokio::time::timeout" definition="In Rust, `tokio::time::timeout` is a function provided by the Tokio library that allows you to set a timeout for a future or asynchronous operation, returning an error if the operation exceeds the specified duration." />
+                    <Term value="AsyncReadExt::read_to_end" definition="In Rust, `AsyncReadExt::read_to_end` is a method in the Tokio library that reads data from an asynchronous reader until it reaches EOF, appending the data to the specified buffer." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="2051233644">
+                <value>
+                  <list>
+                    <Term value="Mutable references" definition="In Rust, a mutable reference allows the modification of a data value through a reference, enabling borrowed data to be mutated." />
+                    <Term value="mutable reference" definition="In Rust, a mutable reference allows the modification of a data value through a reference, enabling borrowed data to be mutated." />
+                    <Term value="self" definition="In Rust, `self` represents the instance of a structure and is used in method definitions to act upon or access the instance." />
+                    <Term value="Self" definition="In Rust, `self` represents the instance of a structure and is used in method definitions to act upon or access the instance." />
+                    <Term value="setter" definition="Setter methods in Rust provide a way to modify private fields of a struct while maintaining invariants, often leveraging ownership or mutable references." />
+                    <Term value="Setters" definition="Setter methods in Rust provide a way to modify private fields of a struct while maintaining invariants, often leveraging ownership or mutable references." />
+                    <Term value="Setter" definition="Setter methods in Rust provide a way to modify private fields of a struct while maintaining invariants, often leveraging ownership or mutable references." />
+                    <Term value="setters" definition="Setter methods in Rust provide a way to modify private fields of a struct while maintaining invariants, often leveraging ownership or mutable references." />
+                    <Term value="variable shadowing" definition="Variable shadowing in Rust refers to declaring a new variable with the same name as an existing one, where the new variable temporarily hides the old one in the scope." />
+                    <Term value="&amp;mut self" definition="The `&amp;mut self` parameter in Rust allows a method to take a mutable reference to an instance, enabling modifications without transferring ownership." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="2086458409">
+                <value>
+                  <list>
+                    <Term value="Mutex&lt;T&gt;" definition="A mutual exclusion primitive in Rust that allows only one thread to access the protected data at a time." />
+                    <Term value="RwLock&lt;T&gt;" definition="A read-write lock in Rust that allows multiple readers to access data simultaneously, but only one writer at a time." />
+                    <Term value="read" definition="A method of RwLock&lt;T&gt; in Rust that returns a guard allowing read-only access to the protected data." />
+                    <Term value="reading" definition="A method of RwLock&lt;T&gt; in Rust that returns a guard allowing read-only access to the protected data." />
+                    <Term value="write" definition="A method of RwLock&lt;T&gt; in Rust that returns a guard allowing modification of the protected data." />
+                    <Term value="writer starvation" definition="A condition where writers are unable to acquire the lock because readers continuously occupy it, causing writers to wait indefinitely." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="2110392840">
+                <value>
+                  <list>
+                    <Term value="generic parameter" definition="A generic parameter in Rust allows a trait or a function to work with different types, facilitating code reusability and flexibility." />
+                    <Term value="generic parameters" definition="A generic parameter in Rust allows a trait or a function to work with different types, facilitating code reusability and flexibility." />
+                    <Term value="associated types" definition="An associated type in Rust is a type placeholder in a trait, uniquely determined by the implementation of the trait for a specific type." />
+                    <Term value="associated type" definition="An associated type in Rust is a type placeholder in a trait, uniquely determined by the implementation of the trait for a specific type." />
+                    <Term value="RHS" definition="In the context of Rust's Add trait, RHS is a generic parameter that allows the addition operator (`+`) to work with different right-hand side operand types." />
+                    <Term value="rhs" definition="In the context of Rust's Add trait, RHS is a generic parameter that allows the addition operator (`+`) to work with different right-hand side operand types." />
+                    <Term value="Output" definition="In Rust, the Output associated type in the Add trait represents the type of the result of the addition operation. It must be uniquely determined based on the types of the operands." />
+                    <Term value="output" definition="In Rust, the Output associated type in the Add trait represents the type of the result of the addition operation. It must be uniquely determined based on the types of the operands." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="2112961728">
+                <value>
+                  <list>
+                    <Term value="recursion" definition="Recursion is a programming technique in which a function calls itself directly or indirectly to solve a problem." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="2127987655">
+                <value>
+                  <list>
+                    <Term value="async" definition="In programming, 'async' is a keyword used to indicate asynchronous operations, allowing tasks to run without blocking a program's execution." />
+                    <Term value="echo server" definition="An echo server is a server that sends back the same data it receives from a client, commonly used for testing and debugging purposes." />
+                    <Term value="tokio" definition="Tokio is a Rust framework for writing asynchronous I/O operations, including networking, using the async/await syntax." />
+                    <Term value="TCP" definition="TCP (Transmission Control Protocol) is a fundamental protocol in networking that enables reliable, ordered, and error-checked delivery of data between systems." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="2143724606">
+                <value>
+                  <list>
+                    <Term value="tokio::spawn" definition="`tokio::spawn` allows you to hand off a task to the executor, **without waiting for it to complete**, enabling it to run concurrently with the task that spawned it." />
+                    <Term value="Asynchronous blocks" definition="An asynchronous block, such as `async move { /* */ }`, is a quick way to mark a region of code as asynchronous without defining a separate async function." />
+                    <Term value="asynchronous block" definition="An asynchronous block, such as `async move { /* */ }`, is a quick way to mark a region of code as asynchronous without defining a separate async function." />
+                    <Term value="JoinHandle" definition="`JoinHandle` is returned by `tokio::spawn` and can be `.await`-ed to wait for a background task to complete, returning a `Result` with `JoinError` as the error type, if any." />
+                    <Term value="std::thread::spawn" definition="`std::thread::spawn` creates a new thread and delegates task scheduling to the OS scheduler." />
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </value>
+        </entry>
+      </map>
+    </terms>
+    <termsVersions>
+      <map>
+        <entry key="en" value="60" />
+      </map>
+    </termsVersions>
+  </component>
+</project>
