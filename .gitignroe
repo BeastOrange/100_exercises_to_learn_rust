@@ -1,0 +1,15 @@
+# --- Rust 相关 ---
+# 忽略编译产物目录
+target/
+
+# --- IDE (编辑器) 相关 ---
+# 既然你在用 JetBrains 的课程，建议忽略 IDE 的配置
+.idea/
+*.iml
+
+# 如果你偶尔会用 VS Code
+.vscode/
+
+# --- 操作系统相关 ---
+.DS_Store
+Thumbs.db
