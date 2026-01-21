@@ -1,14 +1,14 @@
 // TODO: **Exceptionally**, you'll be modifying both the `ticket` module and the `tests` module
 //  in this exercise.
-/* TODO */ mod ticket {
-    /* TODO */ struct Ticket {
+pub mod ticket {
+    pub struct Ticket {
         title: String,
         description: String,
         status: String,
     }
 
     impl Ticket {
-        /* TODO */ fn new(title: String, description: String, status: String) -> Ticket {
+        pub fn new(title: String, description: String, status: String) -> Ticket {
             if title.is_empty() {
                 panic!("Title cannot be empty");
             }

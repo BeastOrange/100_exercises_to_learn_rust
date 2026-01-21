@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 118
-        length: 10
+        length: 0
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -12,8 +12,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: Ek5n1xVO6F+uh3wYJynyng==
         selected: false
-        status: Unchecked
-      - offset: 146
+        status: Failed
+      - offset: 125
         length: 10
         placeholder_text: /* TODO */
         initial_state:
@@ -22,8 +22,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: Ek5n1xVO6F+uh3wYJynyng==
         selected: false
-        status: Unchecked
-      - offset: 282
+        status: Failed
+      - offset: 261
         length: 10
         placeholder_text: /* TODO */
         initial_state:
@@ -32,7 +32,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: Ek5n1xVO6F+uh3wYJynyng==
         selected: false
-        status: Unchecked
+        status: Failed
     learner_created: false
   - name: Cargo.toml
     visible: false
@@ -48,8 +48,8 @@ files:
           offset: 1152
         initialized_from_dependency: false
         encrypted_possible_answer: 51Tz8ITgzfwhaot9aQaa/PDNKSjg2zwJ8x3W19bSm5AHizmOMjl3qd6pkLK43RDGN9MuOqekg42DkdsFNb5kpA==
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Failed
       - offset: 1861
         length: 126
         placeholder_text: "let ticket = Ticket {  \n\t\t\t title: \"A title\".into(),\n\
@@ -61,7 +61,10 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: e2j1aKpoMjxvv1nC12uzXoDgaHO4yIF7pvpXmT0uIDfKHrMzbOchGfc44QqykOEO0vcEDrH3h6bvpLjBsMwW9zzhcUTxPIdSwGsyh1X5d5pmmhAz/UM1k9v16NS7J7unyakmzA2IAZzMKufPCw1bU5Tu6f4qU5bZwbb/xrUqOVndZPPAGyGw2v00IIdEJn/VRt1IHDjwve+cotcveXkybx6QwI/SwvazUD4zRm5KbQo=
         selected: false
-        status: Unchecked
+        status: Failed
     learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: 编译失败
+  time: "Wed, 21 Jan 2026 09:29:11 UTC"
 record: -1
