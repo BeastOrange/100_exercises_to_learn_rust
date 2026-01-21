@@ -5,7 +5,16 @@
 // It should also have a method named `is_available` that returns a `true` if the quantity is
 // greater than 0, otherwise `false`.
 
-/* TODO */
+struct Order {
+    price: usize,
+    quantity: usize,
+}
+
+impl Order {
+    fn is_available(&self) -> bool {
+        self.quantity > 0
+    }
+}
 
 fn main() {
     let order = Order {

@@ -10,27 +10,27 @@ files:
     visible: true
     placeholders:
       - offset: 81
-        length: 10
+        length: 2
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 81
         initialized_from_dependency: false
         encrypted_possible_answer: 4w33P5f+Ces/HqPWq0IorA==
-        selected: false
-        status: Unchecked
-      - offset: 920
-        length: 10
+        selected: true
+        status: Solved
+      - offset: 912
+        length: 2
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 920
         initialized_from_dependency: false
         encrypted_possible_answer: RESya3fqSV1DFqjsTgSSYQ==
-        selected: false
-        status: Unchecked
-      - offset: 1020
-        length: 10
+        selected: true
+        status: Solved
+      - offset: 1002
+        length: 3
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -38,7 +38,10 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: oa+nVSRiKi7L3SNrfCrSCA==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: 恭喜!
+  time: "Wed, 21 Jan 2026 06:24:36 UTC"
 record: -1
