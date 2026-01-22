@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 118
-        length: 0
+        length: 3
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -12,9 +12,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: Ek5n1xVO6F+uh3wYJynyng==
         selected: false
-        status: Failed
-      - offset: 125
-        length: 10
+        status: Solved
+      - offset: 139
+        length: 3
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -22,9 +22,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: Ek5n1xVO6F+uh3wYJynyng==
         selected: false
-        status: Failed
-      - offset: 261
-        length: 10
+        status: Solved
+      - offset: 268
+        length: 3
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -32,7 +32,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: Ek5n1xVO6F+uh3wYJynyng==
         selected: false
-        status: Failed
+        status: Solved
     learner_created: false
   - name: Cargo.toml
     visible: false
@@ -41,7 +41,7 @@ files:
     visible: true
     placeholders:
       - offset: 1152
-        length: 48
+        length: 51
         placeholder_text: "assert_eq!(ticket.description, \"A description\");"
         initial_state:
           length: 48
@@ -49,9 +49,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 51Tz8ITgzfwhaot9aQaa/PDNKSjg2zwJ8x3W19bSm5AHizmOMjl3qd6pkLK43RDGN9MuOqekg42DkdsFNb5kpA==
         selected: true
-        status: Failed
-      - offset: 1861
-        length: 126
+        status: Solved
+      - offset: 1863
+        length: 138
         placeholder_text: "let ticket = Ticket {  \n\t\t\t title: \"A title\".into(),\n\
       \t\t\t description: \"A description\".into(),\n\t\t\t status: \"To-Do\".into()\
       \ \n\t\t};"
@@ -60,11 +60,11 @@ files:
           offset: 1861
         initialized_from_dependency: false
         encrypted_possible_answer: e2j1aKpoMjxvv1nC12uzXoDgaHO4yIF7pvpXmT0uIDfKHrMzbOchGfc44QqykOEO0vcEDrH3h6bvpLjBsMwW9zzhcUTxPIdSwGsyh1X5d5pmmhAz/UM1k9v16NS7J7unyakmzA2IAZzMKufPCw1bU5Tu6f4qU5bZwbb/xrUqOVndZPPAGyGw2v00IIdEJn/VRt1IHDjwve+cotcveXkybx6QwI/SwvazUD4zRm5KbQo=
-        selected: false
-        status: Failed
+        selected: true
+        status: Solved
     learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: 编译失败
-  time: "Wed, 21 Jan 2026 09:29:11 UTC"
+  message: 恭喜!
+  time: "Thu, 22 Jan 2026 01:28:40 UTC"
 record: -1
